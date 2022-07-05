@@ -1,0 +1,138 @@
+body{
+  background-color: whitesmoke;
+  font-family: sans-serif;
+}
+
+*{
+  margin: 0rem;
+  padding: 0rem;
+}
+
+
+
+.navbar-brand {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 2rem;
+  color: cornflowerblue;
+}
+.inpost{
+  height: 100vh;
+  width: 40%;
+}
+.banner-img{
+  height: 100vh;
+  
+  background-image: url("../images/index.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+.nav-item {
+ margin: 1rem;
+  color: lightgray;
+  font-size: 1.5rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.grid{
+  margin: 3rem;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color:teal
+}
+.nav-link {
+  
+  font-size: 1.2rem;
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:darkkhaki;
+}
+
+/* .mid_container{
+ margin: 4% 0;
+} */
+.techfont{
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.postdate{
+  text-align: center;
+}
+
+.posttitle{
+  font-family: 'Russo One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+.carousel-img{
+  height: 500px;
+  width: 90%;
+  margin: auto;
+}
+.postcontent{
+  font-family: 'Montserrat';
+  font-size: 1.5em;
+}
+
+.centerstage{
+ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-comment{  
+  position: absolute;
+  right: 0px;
+}
+#title-nav-link:hover{
+  color: lavender;
+}
+
+.bigbrand{
+  font-size: 1.5em;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.white-section {
+  background-color: bisque;
+  padding: 0%;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.PostContainer{
+  text-align: center;
+  margin:5% 5%;
+}
+.PostStyle{
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact{
+  border:3px solid gray;
+  background-color:mintcream
+
+}
+/*COLOR CHANGER*/
+/*Credit and Source: http://codepen.io/thapliyalshivam/pen/dvgXVO*/
+/* .loader{
+  filter:hue-rotate(0deg);
+  color: linear-gradient(45deg,#0f8,#08f);
+  animation:hue 5000ms infinite linear;
+} */
+
+

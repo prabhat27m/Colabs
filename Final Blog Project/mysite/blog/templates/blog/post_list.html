@@ -1,0 +1,31 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container container-fluid" style="background-color:whitesmoke">
+    <div class="row">
+      <div class="col-lg-6">
+       <img  style="height: 70vh; width:90%" src="{% static 'images/Inpost.jpg'%}" alt="image">
+      </div>
+
+      <div class="col-lg-6">
+        <h2>Post list:</h2>
+        <div class="centerstage jumbotron">
+
+
+            {% for post in post_list %}
+                <div class="post">
+        
+                    <h3><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h3>
+                    <div class="date">
+                        <p>Published on: {{ post.published_date|date:"D M Y"}}</p>
+                    </div>
+                    <a href="{% url 'post_detail' pk=post.pk %}">Comments: {{ post.approve_comments.count }}</a>
+                </div>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock content %}
